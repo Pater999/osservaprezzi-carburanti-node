@@ -1,12 +1,9 @@
 {
   "name": "osservaprezzi-carburanti-node",
-  "version": "1.0.2",
+  "version": "1.0.6",
   "description": "Osservaprezzi carburanti async/await API wrapper. Developed in TypeScript, typed interfaces for all API responses.",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "homepage": "https://pater999.it/osservaprezzi-carburanti-node/",
-  "exports": {
-    ".": "./src/index.js"
-  },
   "repository": {
     "type": "git",
     "url": "git@github.com:Pater999/osservaprezzi-carburanti-node.git"
@@ -15,11 +12,11 @@
     "url": "https://github.com/telegraf/telegraf/issues"
   },
   "files": [
-    "src/**/*.ts",
-    "lib/**/*.js",
-    "typings/**/*.d.ts",
-    "typings/**/*.d.ts.map",
-    "types.*"
+    "lib/",
+    "src/",
+    "!lib/**/*.map",
+    "!lib/tsconfig.tsbuildinfo",
+    "!docs/"
   ],
   "author": "Pater999 <39135429+Pater999@users.noreply.github.com>",
   "license": "MIT",
@@ -36,7 +33,7 @@
   "engines": {
     "node": ">= 12.22.12"
   },
-  "types": "./typings/index.d.ts",
+  "types": "lib/index.d.ts",
   "keywords": [
     "carburanti",
     "italia",

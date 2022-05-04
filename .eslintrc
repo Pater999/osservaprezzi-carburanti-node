@@ -43,7 +43,8 @@
         "/lib/",
         "/typings/",
         "/docs/",
-        "test"
+        "test",
+        "/types.*"
     ],
     "reportUnusedDisableDirectives": true,
     "plugins": [

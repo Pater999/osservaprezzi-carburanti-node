@@ -4,6 +4,7 @@ import { ApiError } from '../types'
 import { ApiException } from './apiException'
 import { AxiosResponse } from 'axios'
 
+/** @internal */
 export const processError = (response: AxiosResponse) => {
   const status = response.status
   // eslint-disable-next-line @typescript-eslint/no-explicit-any

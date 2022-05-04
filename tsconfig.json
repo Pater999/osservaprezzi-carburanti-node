@@ -1,21 +1,30 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
-        "composite": true,
+        "sourceMap": true,
         "declaration": true,
-        "declarationMap": true,
-        "declarationDir": "typings/",
-        "outDir": "lib/",
-        "rootDir": "src/",
-        "target": "ES2019",
+        "outDir": "./lib",
+        "lib": [
+            "es2019"
+        ],
+        "module": "commonjs",
+        "target": "es2019",
+        "types": [
+            "node",
+            "jest"
+        ],
+        "alwaysStrict": true,
+        "incremental": true,
+        "pretty": true,
         "strict": true,
-        "noUncheckedIndexedAccess": true,
-        "tsBuildInfoFile": "typings/tsconfig.tsbuildinfo",
-        "noErrorTruncation": true,
-        "forceConsistentCasingInFileNames": true
+        "removeComments": false,
+        "stripInternal": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true
     },
     "include": [
-        "src/"
+        "./src/**/*.ts"
     ],
     "typedocOptions": {
         "excludeExternals": true,
