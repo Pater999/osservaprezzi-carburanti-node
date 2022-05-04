@@ -1,0 +1,59 @@
+{
+  "name": "osservaprezzi-carburanti-node",
+  "version": "1.0.0",
+  "description": "Osservaprezzi carburanti async/await API wrapper. Developed in TypeScript, typed interfaces for all API responses.",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Pater999/osservaprezzi-carburanti-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/telegraf/telegraf/issues"
+  },
+  "author": "Pater999 <39135429+Pater999@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "npm run --silent build",
+    "build": "tsc --build",
+    "build:docs": "typedoc src/index.ts",
+    "test": "jest test/*",
+    "lint": "eslint .",
+    "checks": "npm test && npm run lint",
+    "refresh": "npm run clean && npm ci",
+    "clean": "git clean -fX .eslintcache coverage/ dist/ typings/"
+  },
+  "engines": {
+    "node": ">= 12.22.12"
+  },
+  "types": "./typings/index.d.ts",
+  "keywords": [
+    "carburanti",
+    "italia",
+    "prezzi carburanti api",
+    "wrapper prezzi carburanti",
+    "api prezzi benzina",
+    "prezzi benzina node"
+  ],
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "@typescript-eslint/parser": "^5.21.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jest": "^26.1.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.0.0",
+    "prettier": "^2.6.2",
+    "ts-jest": "^27.1.4",
+    "typedoc": "^0.22.15",
+    "typedoc-plugin-missing-exports": "^0.22.6",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "http-status-codes": "^2.2.0"
+  }
+}
