@@ -42,6 +42,7 @@
         "jest.config.js",
         "/dist/",
         "/typings/",
+        "/docs/",
         "test"
     ],
     "reportUnusedDisableDirectives": true,

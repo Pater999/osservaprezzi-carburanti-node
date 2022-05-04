@@ -80,7 +80,7 @@ test('Get brands logos list', async () => {
       }),
     ])
   )
-})
+}, 20000)
 
 test('Get italian regions list', async () => {
   const fuelsClient = new FuelsApiClient()
