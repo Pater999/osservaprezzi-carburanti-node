@@ -40,7 +40,9 @@ const client = new FuelsApiClient();
     refuelingMode: RefuelingMode.ALL,
     priceOrder: 'asc',
   };
+
   const searchResponse = await client.search.byZone(searchCriteria);
+  
   console.log(searchResponse);
 })();
 ```

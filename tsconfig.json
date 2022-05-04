@@ -5,7 +5,7 @@
         "declaration": true,
         "declarationMap": true,
         "declarationDir": "typings/",
-        "outDir": "dist/",
+        "outDir": "lib/",
         "rootDir": "src/",
         "target": "ES2019",
         "strict": true,

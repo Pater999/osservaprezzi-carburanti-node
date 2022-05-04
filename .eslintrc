@@ -40,7 +40,7 @@
     },
     "ignorePatterns": [
         "jest.config.js",
-        "/dist/",
+        "/lib/",
         "/typings/",
         "/docs/",
         "test"
