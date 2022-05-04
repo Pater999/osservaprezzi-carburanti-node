@@ -1,6 +1,6 @@
 {
   "name": "osservaprezzi-carburanti-node",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Osservaprezzi carburanti async/await API wrapper. Developed in TypeScript, typed interfaces for all API responses.",
   "main": "lib/index.js",
   "homepage": "https://pater999.it/osservaprezzi-carburanti-node/",
