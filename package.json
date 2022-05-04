@@ -1,6 +1,6 @@
 {
   "name": "osservaprezzi-carburanti-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Osservaprezzi carburanti async/await API wrapper. Developed in TypeScript, typed interfaces for all API responses.",
   "main": "src/index.js",
   "exports": {

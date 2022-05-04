@@ -55,9 +55,9 @@ jobs:
           publish_dir: ./docs
           # for v3.html and perhaps CNAME
           keep_files: true
-      # - name: Publish to npm
-      #   run: |
-      #     npm config set //registry.npmjs.org/:_authToken ${NPM_TOKEN}
-      #     npm publish --ignore-scripts
-      #   env:
-      #     NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Publish to npm
+        run: |
+          npm config set //registry.npmjs.org/:_authToken ${NPM_TOKEN}
+          npm publish --ignore-scripts
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
