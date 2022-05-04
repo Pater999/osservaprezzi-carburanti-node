@@ -1,6 +1,13 @@
 # Osservaprezzi carburanti node
 
-[![install size](https://packagephobia.com/badge?p=osservaprezzi-carburanti-node)](https://packagephobia.com/result?p=osservaprezzi-carburanti-node) [![GitHub top language](https://img.shields.io/github/languages/top/osservaprezzi-carburanti-node/osservaprezzi-carburanti-node?style=flat-square&logo=github)](https://github.com/telegraf/telegraf) [![GitHub license](https://img.shields.io/github/license/pater999/osservaprezzi-carburanti-node)](https://github.com/pater999/osservaprezzi-carburanti-node/blob/master/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/pater999/osservaprezzi-carburanti-node)](https://github.com/osservaprezzi-carburanti-node/issues) [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/pater999/osservaprezzi-carburanti-node/release)][github]
+[![Npm version](https://img.shields.io/npm/v/osservaprezzi-carburanti-node)](https://www.npmjs.com/package/osservaprezzi-carburanti-node)
+[![install size](https://packagephobia.com/badge?p=osservaprezzi-carburanti-node)](https://www.npmjs.com/package/osservaprezzi-carburanti-node) 
+[![Support version](https://img.shields.io/node/v-lts/osservaprezzi-carburanti-node)][github]
+[![GitHub top language](https://img.shields.io/github/languages/top/pater999/osservaprezzi-carburanti-node?style=flat-square&logo=github)](https://github.com/pater999/osservaprezzi-carburanti-node) 
+[![GitHub license](https://img.shields.io/github/license/pater999/osservaprezzi-carburanti-node)](https://github.com/osservaprezzi-carburanti-node/issues) 
+[![GitHub issues](https://img.shields.io/github/issues/pater999/osservaprezzi-carburanti-node)](https://github.com/osservaprezzi-carburanti-node/issues) 
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/pater999/osservaprezzi-carburanti-node/Release)][github]
+[![Github last commit](https://img.shields.io/github/last-commit/pater999/osservaprezzi-carburanti-node)][github]
 
 [github]: https://github.com/Pater999/osservaprezzi-carburanti-node
 
