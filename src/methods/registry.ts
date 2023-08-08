@@ -78,7 +78,7 @@ export class Registry extends Method {
   public async brandsLogosList(): Promise<Array<BrandLogo>> {
     const url = `registry/alllogos`
 
-    const response = await this.axiosClient.post<BrandsLogosListResponse>(
+    const response = await this.axiosClient.get<BrandsLogosListResponse>(
       url,
       {}
     )
