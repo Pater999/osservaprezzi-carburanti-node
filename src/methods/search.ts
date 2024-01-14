@@ -30,6 +30,7 @@ export class SearchServiceArea extends Method {
 
     const body = {
       points: criteria.points,
+      radius: criteria.radius,
       priceOrder: criteria.priceOrder ?? 'desc',
       fuelType: `${criteria.fuelType ?? FuelType.ALL}-${
         criteria.refuelingMode ?? RefuelingMode.ALL
