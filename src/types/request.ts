@@ -9,8 +9,8 @@ export interface SearchBaseCriteria {
 }
 
 export interface SearchByZoneCriteria extends SearchBaseCriteria {
-  points: MapPoint[],
-  radius: number;
+  points: MapPoint[]
+  radius?: number
 }
 
 export interface SearchByGeographicAreaCriteria extends SearchBaseCriteria {
